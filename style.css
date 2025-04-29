@@ -139,10 +139,10 @@ body {
 .general {
     padding: 100px 20px;
     display: flex;
-    flex-direction: column;    
-    align-items: center;        
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
-    gap: 40px;                  
+    gap: 40px;
 }
 
 .general-tittle {
@@ -154,11 +154,11 @@ body {
 
 .general-1 {
     width: 100%;
-    max-width: 1200px;          
+    max-width: 1200px;
     display: flex;
-    flex-wrap: wrap;           
-    justify-content: center;   
-    gap: 20px;                
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .general-card {
@@ -189,4 +189,45 @@ body {
 .general-card p {
     font-size: 14px;
     color: #666;
+}
+
+.problem {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.problem-content {
+    width: 50%;
+    padding-right: 150px;
+}
+
+.problem-content h2 {
+    font-size: 40px;
+    color: #45B69C;
+}
+
+.problem-content p {
+    text-shadow: 0 0 15px #666;
+    border: 2px solid #333;
+    text-justify: distribute-all-lines;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.img-1,
+.img-2 {
+    width: 250px;
+    box-shadow: 5px 5px 15px #21D19F;
+    margin-top: 30px;
+}
+
+.problem-tittle {
+    font-size: 40px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
