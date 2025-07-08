@@ -25,27 +25,37 @@
 
 .general-card {
     width: 300px;
-    padding: 30px;
+    padding: 0;
     text-align: center;
     border-radius: 25px;
     box-shadow: 0 0 15px #272D2D;
     background-color: #fff;
     transition: transform 0.3s;
+    overflow: hidden; /* Para contener las esquinas de la imagen */
 }
 
 .general-card:hover {
     transform: translateY(-10px);
 }
 
-.general-card img {
-    width: 90px;
-    margin-bottom: 20px;
+.general-card .presentation-img {
+    width: 100%;
+    height: auto; /* Altura automática para evitar recortes */
+    display: block; /* Asegura un comportamiento de bloque correcto */
 }
+
+.general-card .default-icon {
+    width: 90px;
+    height: 90px;
+    margin: 20px 0;
+}
+
 
 .general-card h3 {
     font-size: 18px;
     color: #333;
-    margin-bottom: 15px;
+    padding: 20px 10px;
+    margin: 0;
 }
 
 .general-card p {
