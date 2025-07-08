@@ -29,7 +29,7 @@
 
 .menu .navbar ul li a {
     font-size: 17px;
-    color: #21D19F;
+    color: #FFFFFF; /* Texto blanco */
     padding: 18px;
     margin: 0 10px;
     display: block;
@@ -44,7 +44,7 @@
 }
 
 .menu .navbar ul li a:hover {
-    color: #272D2D;
+    color: #FFD700; /* Amarillo para el hover */
     text-shadow: 3px 3px 10px #ddd;
     font-size: 20px;
 }
