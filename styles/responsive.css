@@ -103,9 +103,17 @@
         align-items: center;
     }
 
-    .img-1, .img-2 {
+    .gym-2 {
         width: 100%;
-        max-width: 250px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gym-2 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 15px; /* Añade espacio entre las imágenes apiladas */
     }
 
     .gallery-content {
