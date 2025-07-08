@@ -107,4 +107,8 @@
         width: 100%;
         max-width: 250px;
     }
+
+    .gallery-content {
+        grid-template-columns: 1fr;
+    }
 }
