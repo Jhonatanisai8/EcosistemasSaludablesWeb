@@ -1,0 +1,110 @@
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #7293A0;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: #D8DDEF;
+    }
+    
+    .menu .navbar ul li a:hover {
+        color: #272D2D;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        height: auto;
+        padding: 80px 20px 50px 20px;
+    }
+
+    .header-content {
+        margin-top: 0;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .header-txt {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .header-txt h1 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .header-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-img img {
+        margin-top: 0;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .general {
+        padding: 30px;
+        margin-top: 0;
+    }
+
+    .general-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .general-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .problem {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .problem-content {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .problem-content h2 {
+        margin-bottom: 15px;
+    }
+
+    .problem-imgs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-1, .img-2 {
+        width: 100%;
+        max-width: 250px;
+    }
+}

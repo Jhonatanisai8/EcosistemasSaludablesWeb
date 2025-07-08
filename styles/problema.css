@@ -1,0 +1,40 @@
+.problem {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.problem-content {
+    width: 50%;
+    padding-right: 150px;
+}
+
+.problem-content h2 {
+    font-size: 40px;
+    color: #45B69C;
+}
+
+.problem-content p {
+    text-shadow: 0 0 15px #666;
+    border: 2px solid #333;
+    text-justify: distribute-all-lines;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.img-1,
+.img-2 {
+    width: 250px;
+    box-shadow: 5px 5px 15px #21D19F;
+    margin-top: 30px;
+}
+
+.problem-tittle {
+    font-size: 40px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
