@@ -1,0 +1,17 @@
+.collage-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.collage-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.collage-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
