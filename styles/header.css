@@ -28,10 +28,10 @@
 }
 
 .menu .navbar ul li a {
-    font-size: 17px;
+    font-size: 16px; /* Reducir tamaño de fuente */
     color: #FFFFFF; /* Texto blanco */
-    padding: 18px;
-    margin: 0 10px;
+    padding: 15px 10px; /* Reducir padding */
+    margin: 0 5px; /* Reducir margen */
     display: block;
     text-transform: uppercase;
     text-shadow: 3px 3px 10px #333;
@@ -45,8 +45,39 @@
 
 .menu .navbar ul li a:hover {
     color: #FFD700; /* Amarillo para el hover */
-    text-shadow: 3px 3px 10px #ddd;
-    font-size: 20px;
+}
+
+/* Estilos para el submenú desplegable */
+.menu .navbar ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2c3e50; /* Fondo oscuro */
+    border-radius: 0 0 5px 5px;
+    padding: 0;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.menu .navbar ul li:hover > ul {
+    display: block;
+}
+
+.menu .navbar ul li ul li {
+    float: none;
+    width: 200px; /* Ancho del desplegable */
+}
+
+.menu .navbar ul li ul li a {
+    padding: 12px 15px;
+    font-size: 15px;
+    border: none;
+    text-align: left;
+}
+
+.menu .navbar ul li ul li a:hover {
+    background-color: #34495e; /* Color de fondo para el hover */
 }
 
 #menu {
